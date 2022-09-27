@@ -124,7 +124,7 @@ class Flower {
         this.maxFlowerSize = this.size + Math.random() * 100;
             // defines flower size growth to 50
         this.image = new Image();
-        this.image.src = 'sunflower.png';
+        this.image.src = 'sunflower.PNG';
             // calls image from root folder
         // THIS IS A TERNARY OPERATOR (allows upto 3 operands)
         this.size > 7.5 ? this.willFlower = true : this.willFlower = false;
