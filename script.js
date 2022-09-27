@@ -34,7 +34,7 @@ ctx.font = 'bold 20px calibri';
 ctx.textAlign = 'left';
 ctx. textBaseline = 'left';
 ctx.fillStyle = 'rgb(240, 96, 96)';  // a color name or by using rgb/rgba/hex values
-ctx.fillText('I am the Gardener of my own Soul.', 198, 155); // text and position
+ctx.fillText('I am the Gardener of my own Identity.', 198, 155); // text and position
 
 
 // CLASS that creates an animated STALK growth at random speeds and dir
