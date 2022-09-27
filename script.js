@@ -20,7 +20,7 @@ ctx.font = 'bold 20px calibri';
 ctx.textAlign = 'left';
 ctx. textBaseline = 'left';
 ctx.fillStyle = 'rgb(240, 96, 96)';  // a color name or by using rgb/rgba/hex values
-ctx.fillText('Grow a Garden', 200, 80); // text and position
+ctx.fillText('Click and Drag to Grow a Garden', 200, 80); // text and position
 
 // AFFIRMATION
 ctx.font = 'bold 20px calibri';
