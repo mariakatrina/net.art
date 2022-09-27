@@ -155,14 +155,6 @@ class Flower {
 };
 
 
-const reloadtButton = document.querySelector("#reload");
-// Reload everything:
-function reload() {
-    reload = location.reload();
-}
-
-
-
 
 // MOUSEMOVE EVENT LISTENER
 window.addEventListener('mousemove', function(e){
@@ -192,7 +184,3 @@ window.addEventListener('mouseup', function(){
     drawing = false;
 });
 // this deactivates drawing to false when mouse down event is triggered
-
-
-// Event listeners for reload page
-reloadButton.addEventListener("click", reload, false);
