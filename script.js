@@ -15,26 +15,26 @@ let drawing = false;
 ctx.lineWidth = 0.4;
 
 
-// GROW A GARDEN
-ctx.font = 'italics 10px calibri';
+// CLICK AND DRAG
+ctx.font = 'italic 12px arial';
 ctx.textAlign = 'left';
-ctx. textBaseline = 'left';
+ctx. textBaseline = 'middle';
 ctx.fillStyle = 'rgb(240, 96, 96)';  // a color name or by using rgb/rgba/hex values
-ctx.fillText('Click and Drag', 200, 80); // text and position
+ctx.fillText('Click and Drag to', 197, 80); // text and position
 
 // GROW A GARDEN
 ctx.font = 'bold 20px calibri';
 ctx.textAlign = 'left';
 ctx. textBaseline = 'left';
 ctx.fillStyle = 'rgb(240, 96, 96)';  // a color name or by using rgb/rgba/hex values
-ctx.fillText('Grow a Garden', 220, 80); // text and position
+ctx.fillText('Grow a Garden.', 197, 100); // text and position
 
 // AFFIRMATION
 ctx.font = 'bold 20px calibri';
 ctx.textAlign = 'left';
 ctx. textBaseline = 'left';
 ctx.fillStyle = 'rgb(240, 96, 96)';  // a color name or by using rgb/rgba/hex values
-ctx.fillText('I am the gardener of my own soul', 220, 840); // text and position
+ctx.fillText('I am the Gardener of my own Soul.', 198, 155); // text and position
 
 
 // CLASS that creates an animated STALK growth at random speeds and dir
